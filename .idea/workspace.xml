@@ -4,24 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13f95ede-33c0-42a2-a362-4c4f429c73b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/TC01.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/sample.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karate-config.js" afterDir="false" />
+    <list default="true" id="13f95ede-33c0-42a2-a362-4c4f429c73b5" name="Changes" comment="KaratePractice">
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/APITest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/petStore.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/TC01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/TC01.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/sample.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/sample.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,15 +33,21 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Print (1)">
-    <configuration name="Feature: sample" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\KarateFrameworkCW\src\test\java\Caller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Find pet By ID &lt;petID&gt;">
+    <configuration name="Scenario: API 3 GET" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/sample.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/APITest.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="KarateFrameworkCW" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: sample" />
+      <option name="NAME_FILTER" value="^API 3 GET$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^API 3 GET$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: API 3 GET" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -60,15 +59,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Print (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Caller (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/sample.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Caller/Callers.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="KaratePractice" />
-      <option name="NAME_FILTER" value="^Print$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Print$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Print" />
+      <module name="KarateFrameworkCW" />
+      <option name="NAME_FILTER" value="^Caller$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Caller$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Caller" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -80,14 +79,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Print" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Caller" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/sample.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Callers.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="KarateFrameworkCW" />
-      <option name="NAME_FILTER" value="^Print$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Print$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Print" />
+      <option name="NAME_FILTER" value="^Caller$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Caller$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Caller" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -99,15 +99,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Find pet By ID &lt;petID&gt;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/TC01.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Caller/Callers.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="KarateFrameworkCW" />
-      <option name="NAME_FILTER" value="^TC01$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^TC01$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01" />
+      <option name="NAME_FILTER" value="^Find pet By ID .*$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Find pet By ID .*$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Find pet By ID &lt;petID&gt;" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: POST" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/petstore.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="KarateFrameworkCW" />
+      <option name="NAME_FILTER" value="^POST$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^POST$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: POST" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -121,17 +141,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Print (1)" />
-        <item itemvalue="Cucumber Java.Scenario: TC01" />
-        <item itemvalue="Cucumber Java.Feature: sample" />
-        <item itemvalue="Cucumber Java.Scenario: Print" />
+        <item itemvalue="Cucumber Java.Scenario: Find pet By ID &lt;petID&gt;" />
+        <item itemvalue="Cucumber Java.Scenario: Caller (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Caller" />
+        <item itemvalue="Cucumber Java.Scenario: POST" />
+        <item itemvalue="Cucumber Java.Scenario: API 3 GET" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13f95ede-33c0-42a2-a362-4c4f429c73b5" name="Changes" comment="" />
+      <changelist id="2133a495-18d9-46bd-8de8-0be8d8763d7d" name="Changes" comment="" />
       <created>1680286447953</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
